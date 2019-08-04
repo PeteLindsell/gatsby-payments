@@ -3,7 +3,7 @@
 import React from 'react';
 import styled, { css, withTheme } from 'styled-components';
 import { COLORS, TYPOGRAPHY, UTILITIES } from '../Constants';
-import { Icon } from '../index';
+import Icon from '../Icon/Icon';
 
 type ButtonProps = {
   ariaLabel: string,
@@ -29,7 +29,7 @@ const StyledButton = styled.button`
   font-weight: ${TYPOGRAPHY.fontWeightHeavy};
   line-height: 1;
   margin: 5px 0;
-  padding: 10px;
+  padding: 10px 20px;
   text-align: center;
   text-decoration: none;
   :hover {
