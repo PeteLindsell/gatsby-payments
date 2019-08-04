@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{193:function(e,a,t){"use strict";t.r(a);var n=t(0),l=t.n(n),r=(t(195),t(198)),c=t(197),o=t(207),u=t(208);a.default=function(){return l.a.createElement(r.a,null,l.a.createElement(c.a,{title:"Example 2"}),l.a.createElement(o.a,null,l.a.createElement(u.a,{label:"Donation amount",extraLeft:"£"})))}}}]);
+//# sourceMappingURL=component---src-pages-example-2-js-76e1452599253b282dcf.js.map

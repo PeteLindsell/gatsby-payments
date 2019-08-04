@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{192:function(e,a,n){"use strict";n.r(a);var t=n(0),r=n.n(t),l=(n(195),n(198)),o=n(197),c=n(207),i=n(208);a.default=function(){return r.a.createElement(l.a,null,r.a.createElement(o.a,{title:"Example 1"}),r.a.createElement(c.a,null,r.a.createElement(i.a,{label:"Donation amount",extraLeft:"£",error:"This field has an error 🙁"})))}}}]);
+//# sourceMappingURL=component---src-pages-example-1-js-d28279101dc7033116ca.js.map
