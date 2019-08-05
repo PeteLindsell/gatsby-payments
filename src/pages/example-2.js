@@ -51,22 +51,22 @@ const Example2 = () => {
                 <div>
                   <Button
                     type="button"
-                    appearance={values.donationAmount === 10 ? "primary" : "defailt"}
-                    onClick={() => setFieldValue("donationAmount", 10)}
+                    appearance={values.donationAmount === 20 ? "primary" : "defailt"}
+                    onClick={() => setFieldValue("donationAmount", 20)}
                   >
                     £20
                   </Button>
                   <Button
                     type="button"
-                    appearance={values.donationAmount === 20 ? "primary" : "defailt"}
-                    onClick={() => setFieldValue("donationAmount", 20)}
+                    appearance={values.donationAmount === 50 ? "primary" : "defailt"}
+                    onClick={() => setFieldValue("donationAmount", 50)}
                   >
                     £50
                   </Button>
                   <Button
                     type="button"
-                    appearance={values.donationAmount === 50 ? "primary" : "defailt"}
-                    onClick={() => setFieldValue("donationAmount", 50)}
+                    appearance={values.donationAmount === 100 ? "primary" : "defailt"}
+                    onClick={() => setFieldValue("donationAmount", 100)}
                   >
                     £100
                   </Button>
