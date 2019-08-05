@@ -10,6 +10,7 @@ class MyStoreCheckout extends React.Component {
   render() {
     return (
       <Layout>
+        <SEO title="Example 1" />
         <StripeProvider apiKey="pk_test_5r9fnuslIznmQtNHSkRV3HQj00w1467fNY">
           <Elements>
             <CustomCheckoutForm />

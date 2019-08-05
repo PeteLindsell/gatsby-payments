@@ -25,7 +25,7 @@ export const BREAKPOINT = {
 export const COLORS = {
   primary: 'hsl(260, 100%, 27%)', // #2e008b
   primaryHover: '#ec008c',
-  secondary: '#ec008c',
+  secondary: 'rgb(228, 0, 135)',
   secondaryHover: '#ff20a4',
   tertiary: '#00b6ed',
   tertiaryHover: '#21cbff',
