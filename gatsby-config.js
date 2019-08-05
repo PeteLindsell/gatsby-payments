@@ -31,12 +31,12 @@ module.exports = {
     `gatsby-plugin-flow`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-stripe`,
-    // {
-    //   resolve: `gatsby-plugin-stripe`,
-    //   options: {
-    //     async: true,
-    //   },
-    // },
+    {
+      resolve: `gatsby-plugin-stripe`,
+      options: {
+        async: true,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
