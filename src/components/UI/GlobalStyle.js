@@ -19,7 +19,7 @@ const buildCustomFonts = customFonts => (
 );
 
 const GlobalStyle = createGlobalStyle`
-  ${props => buildCustomFonts(props.theme.typography ? props.theme.typography.customFonts : TYPOGRAPHY.customFonts)}
+  /* ${props => buildCustomFonts(props.theme.typography ? props.theme.typography.customFonts : TYPOGRAPHY.customFonts)} */
   html {
     font-size: ${TYPOGRAPHY.fontSizeBase};
     font-family: ${TYPOGRAPHY.fontFamilyBase};
