@@ -73,25 +73,25 @@ const StyledHeader = styled.header`
 `;
 
 class Header extends React.Component<HeaderProps> {
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
-  }
+  // componentDidMount() {
+  //   window.addEventListener('scroll', this.handleScroll);
+  // }
 
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
+  // componentWillUnmount() {
+  //   window.removeEventListener('scroll', this.handleScroll);
+  // }
 
-  handleScroll = () => {
-    const top = document.documentElement.scrollTop || document.body.scrollTop;
-    const body = document.documentElement.classList || document.body.classList;
-    if (this.props.isSticky) {
-      if (top > 100) {
-        body.add('sticky');
-      } else {
-        body.remove('sticky');
-      }
-    }
-  };
+  // handleScroll = () => {
+  //   const top = document.documentElement.scrollTop || document.body.scrollTop;
+  //   const body = document.documentElement.classList || document.body.classList;
+  //   if (this.props.isSticky) {
+  //     if (top > 100) {
+  //       body.add('sticky');
+  //     } else {
+  //       body.remove('sticky');
+  //     }
+  //   }
+  // };
 
   render() {
     return (
