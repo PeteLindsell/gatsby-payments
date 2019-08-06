@@ -30,7 +30,7 @@ module.exports = {
     },
     `gatsby-plugin-flow`,
     `gatsby-plugin-styled-components`,
-    `gatsby-plugin-stripe`,
+    //`gatsby-plugin-stripe`,
     {
       resolve: `gatsby-plugin-stripe`,
       options: {
