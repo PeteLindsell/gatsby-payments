@@ -10,8 +10,14 @@ import CustomCheckoutForm from '../components/CustomCheckoutForm';
 const IndexPage = () => (
   
     <Layout>
-      <Link to="/example-1/">Example 1</Link>
-      <Link to="/example-2/">Example 2</Link>
+      <ul>
+        <li>
+          <Link to="/example-1/">Seller 1</Link>
+        </li>
+        <li>
+          <Link to="/example-2/">Seller 2</Link>
+        </li>
+      </ul>
     </Layout>
 );
 
