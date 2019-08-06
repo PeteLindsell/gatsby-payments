@@ -26,7 +26,7 @@ const GlobalStyle = createGlobalStyle`
     line-height: ${UTILITIES.lineHeight};
   }
   body {
-    background-color: ${COLORS.white};
+    background-color: ${COLORS.grayVLight};
     color: ${COLORS.grayDarker};
     margin: 0;
     padding: 0;
@@ -51,4 +51,9 @@ const GlobalStyle = createGlobalStyle`
     height: auto;
   }
 `;
+
+GlobalStyle.defaultProps = {
+  theme: {},
+};
+
 export default GlobalStyle;
